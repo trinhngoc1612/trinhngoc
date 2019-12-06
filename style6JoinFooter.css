@@ -1,0 +1,207 @@
+/*------------
+join our newsletter
+-------------*/
+.join{
+	background-image: url('img/bg_join.png');
+}
+.join input{
+	width: 490px;
+	border-radius: 4px;
+	border: 1px solid #fff;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.join-block{
+	margin: 0 auto;
+	padding: 35px 0;
+}
+.join-block div{
+	float: left;
+}
+.join h4{
+	color: #fcb941;
+	font-size: 20px;
+}
+.join p{
+	color: #929292;
+}
+.btn-subscribe{
+	border-radius: 4px;
+	background-color: rgba(255,255,255,0.1);
+	color: #fff;
+	white-space: nowrap;
+	padding-left: 50px;
+	padding-right: 50px;
+	border: 1px solid rgba(255,255,255,0.1);
+	vertical-align: top;
+}
+.your-email input, .your-email a{
+	margin: 0 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+@media (max-width: 706px){
+	.join input{
+		margin-bottom: 20px !important;
+	}
+}
+@media (max-width: 1439px){
+	.join-block div{
+		width: 100%;
+		margin: 10px 0;
+	}
+	.join-block{
+		text-align: center;
+		padding: 25px 0px;
+	}
+}
+@media (min-width: 1440px){
+	.join-block div{
+		margin: 0 50px;
+	}
+}
+
+/*------------
+ end join our newsletter
+-------------*/
+
+/*------------
+footer
+----------------*/
+.footer{
+	padding-top: 65px;
+	padding-bottom: 25px;
+}
+.end-footer .social li{
+	margin: 0 10px;
+}
+.end-footer .social-media i{
+	font-size: 13px;
+}
+.footer p{
+	color: #999;
+}
+.footer input{
+	border: 1px solid #dadada;
+	color: #dadada;
+	padding: 15px;
+	max-width: 100%;
+	overflow: hidden;
+}
+.footer .btn-dark{
+	padding: 15px;
+	border-radius: 0;
+	vertical-align: top;
+}
+.inp-btn{
+	display: flex;
+}
+#logoDark img{
+	width: auto;
+}
+.top_title{
+	margin-bottom: 20px;
+}
+.top_title p{
+	font-size: 16px;
+	color: #333;
+	font-weight: 600;
+}
+.intro{
+	margin-bottom: 40px;
+}
+.useful-link{
+	display: block;
+	color: #999;
+	line-height: 30px;
+}
+.useful-link:hover{
+	color: rgb(204,153,102);
+}
+.pay-method img{
+	width: 30px;
+	height: 20px;
+	margin-right: 10px;
+}
+.copy-right{
+	color: rgb(106,106,106);
+	float: left;
+}
+.pay-method{
+	float: left;
+	margin-left: 30px;
+}
+.got-question{
+	float: left;
+}
+.got-question p , .pay-method p{
+	color: #333;
+	font-size: 13px;
+}
+.got-question a{
+	color: #fcb941;
+	font-size: 20px;
+}
+.end-footer{
+	margin: 10px 0;
+}
+.media-fb{
+	color: #8f79ed;
+}
+.media-twitter{
+	 color: #79c8ed;
+}
+.media-insta{
+	color: #df7aa2;
+}
+.media-youtube, .media-pinter{
+	color: #e66262;
+	color: 
+}
+.footer .col-12{
+	margin-bottom: 40px;
+}
+.social-media-right{
+	float: right;
+}
+.social-media-right .useful-link{
+	display: inline-block;
+	font-size: 14px;
+}
+.social-media-right{
+	text-align: right;
+}
+.copy-right, .social-media-right{
+	color: #999;
+	line-height: 40px;
+}
+.end-footer .social-media{
+	padding: 0 0 5px;
+}
+.end-footer .social-media i{
+	position: initial;
+}
+@media (max-width: 520px){
+	.join input{
+		width: auto;
+	}
+}
+@media (max-width: 767px) {
+	.end-footer .col-12{
+		text-align: center;
+	}
+}
+@media (max-width: 1559px) and (min-width: 1200px){
+	.pay-method{
+		clear: left;
+		margin-left: 0;
+	}
+}
+@media (max-width: 535px){
+	.pay-method{
+		margin-left: 0;
+	}
+}
+/*------------
+end footer
+----------------*/
